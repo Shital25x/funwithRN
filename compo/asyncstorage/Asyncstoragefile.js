@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Asyncstorage = () => {
+const Asyncstoragefile = () => {
   return (
     <View>
-      <Text>Asyncstorage</Text>
+      <Text>Asyncstoragefile</Text>
     </View>
   )
 }
 
-export default Asyncstorage
+export default Asyncstoragefile
 
 const styles = StyleSheet.create({})
