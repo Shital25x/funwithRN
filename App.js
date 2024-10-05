@@ -86,6 +86,7 @@ import Stack from './compo/navigation/Stack'
 import Simplevalidation from './compo/validatingform/Simplevalidation'
 import Validationwithconditionalrendering from './compo/validatingform/Validationwithconditionalrendering'
 import Crud from './compo/crud/Todo'
+
 const App = () => {
   return (
     <View style={styles.container}>
@@ -106,6 +107,7 @@ const App = () => {
 {/* <Stack/> */}
 {/* <Simplevalidation/> */}
 {/* <Validationwithconditionalrendering/> */}
+
     </View>
   )
 }
