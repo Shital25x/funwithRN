@@ -86,7 +86,7 @@ const Todo = () => {
       {!edit ? (
         <Button title="Add" onPress={() => Handlesubmit()} />
       ) : (
-        <Button title="Update" onPress={() => Handlesubmit()} />
+        <Button title="Edit" onPress={() => Handlesubmit()} />
       )}
 
       <FlatList
