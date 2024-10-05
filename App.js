@@ -86,6 +86,7 @@ import Stack from './compo/navigation/Stack'
 import Simplevalidation from './compo/validatingform/Simplevalidation'
 import Validationwithconditionalrendering from './compo/validatingform/Validationwithconditionalrendering'
 import Crud from './compo/crud/Todo'
+import Asyncstoragefile from './compo/asyncstorage/Asyncstoragefile'
 
 const App = () => {
   return (
@@ -96,7 +97,7 @@ const App = () => {
       {/* <Goal isGoal={false}/> */}
       {/* <JioCinema/> */}
       {/* <Flatlist/> */}
-    <Crud/>
+    {/* <Crud/> */}
     {/* <Todo/> */}
 {/* <Axios/> */}
 {/* <Assignment/> */}
@@ -107,7 +108,7 @@ const App = () => {
 {/* <Stack/> */}
 {/* <Simplevalidation/> */}
 {/* <Validationwithconditionalrendering/> */}
-
+<Asyncstoragefile/>
     </View>
   )
 }
